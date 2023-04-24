@@ -38,7 +38,6 @@ const Slider = () => {
             className="darken"
           />
         </Box>
-
   );
 };
 
