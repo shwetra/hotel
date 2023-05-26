@@ -1,14 +1,21 @@
 import './App.css';
-import Slider from './Components/Slider';
 import Navbar from './Components/Navbar';
-import Card from './Components/CityCard';
+import { AllRoutes } from './Components/AllRoutes';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import ContactForm from './Components/Contact';
+import { Offershow } from './Components/Offershow';
+import { AddHotel } from './Components/AddHotel';
 
 function App() {
   return (
     <div className="App">
-         <Navbar/>
-     <Slider/>
-  <Card/>
+  <Navbar/>
+  <AllRoutes/>
+
+
+ 
+  {/* <ContactForm/> */}
     </div>
   );
 }
